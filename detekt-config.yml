@@ -1,0 +1,102 @@
+exceptions:
+  TooGenericExceptionCaught:
+    active: true
+    exceptionNames:
+      - ArrayIndexOutOfBoundsException
+      - Error
+      - IllegalMonitorStateException
+      - NullPointerException
+      - IndexOutOfBoundsException
+      - RuntimeException
+      - Throwable
+  TooGenericExceptionThrown:
+    active: true
+    exceptionNames:
+      - Error
+      - Throwable
+      - RuntimeException
+
+#formatting:
+#  active: true
+#  android: false
+#  autoCorrect: true
+#  ChainWrapping:
+#    active: true
+#    autoCorrect: true
+#  CommentSpacing:
+#    active: true
+#    autoCorrect: true
+#  Filename:
+#    active: true
+#  FinalNewline:
+#    active: false
+#    autoCorrect: false
+#  MaximumLineLength:
+#    active: false
+#    maxLineLength: 160
+#  ModifierOrdering:
+#    active: true
+#    autoCorrect: true
+#  NoBlankLineBeforeRbrace:
+#    active: true
+#    autoCorrect: true
+#  NoConsecutiveBlankLines:
+#    active: false
+#    autoCorrect: false
+#  NoEmptyClassBody:
+#    active: true
+#    autoCorrect: true
+#  NoItParamInMultilineLambda:
+#    active: true
+#  NoLineBreakAfterElse:
+#    active: true
+#    autoCorrect: true
+#  NoLineBreakBeforeAssignment:
+#    active: true
+#    autoCorrect: true
+#  NoMultipleSpaces:
+#    active: true
+#    autoCorrect: true
+#  NoSemicolons:
+#    active: true
+#    autoCorrect: true
+#  NoTrailingSpaces:
+#    active: true
+#    autoCorrect: true
+#  NoUnitReturn:
+#    active: true
+#    autoCorrect: true
+#  NoUnusedImports:
+#    active: true
+#    autoCorrect: true
+#  ArgumentListWrapping:
+#    active: false
+#  NoWildcardImports:
+#    active: false
+#  Indentation:
+#    active: false
+#    autoCorrect: true
+#    indentSize: 4
+#    continuationIndentSize: 4
+#  ImportOrdering:
+#    active: false
+#    autoCorrect: true
+
+style:
+  WildcardImport:
+    active: false
+  MaxLineLength:
+    active: false
+    autoCorrect: false
+  MagicNumber:
+    active: false
+    ignoreNumbers: '-1,0,1,2'
+    ignoreHashCodeFunction: true
+    ignorePropertyDeclaration: false
+    ignoreLocalVariableDeclaration: false
+    ignoreConstantDeclaration: true
+    ignoreCompanionObjectPropertyDeclaration: true
+    ignoreAnnotation: false
+    ignoreNamedArgument: true
+    ignoreEnums: false
+    ignoreRanges: false
