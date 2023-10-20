@@ -108,3 +108,9 @@ jobs:
         sarif_file: ${{ github.workspace }}/detekt.sarif.json
         checkout_path: ${{ github.workspace }}
         category: detekt-analysis-tool
+
+    - name: Run snapshot action
+      uses: mikepenz/gradle-dependency-submission@{latest}
+      with:
+        gradle-project-path: "."
+        gradle-build-module: ':'
